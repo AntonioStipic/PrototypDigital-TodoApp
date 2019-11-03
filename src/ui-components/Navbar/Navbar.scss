@@ -1,0 +1,32 @@
+#navbar-primary .navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+#navbar-primary .navbar-nav>li {
+    display: inline-block;
+    float: none;
+}
+
+#navbar-primary .navbar-nav>li>a {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pointerCursor:hover {
+    cursor: pointer;
+}
+
+.p-r {
+    padding-right: 20px !important;
+}
+
+.logoImg {
+    width: 150px;
+}
+
+.navbar {
+    height: 72px;
+
+    overflow-x: hidden;
+}

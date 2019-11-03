@@ -1,0 +1,27 @@
+#todoPageContainer {
+  padding: 15px;
+}
+
+.msg-wrapper {
+  white-space: pre-wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+textarea {
+  height: 150px;
+}
+
+#todoBody {
+  min-height: 180px;
+}
+
+.todoInfo {
+  width: 60%;
+  min-width: 350px !important;
+}
+/*# sourceMappingURL=TodoPage.css.map */

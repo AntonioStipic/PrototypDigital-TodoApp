@@ -1,0 +1,79 @@
+#homePageContainer {
+  padding: 15px;
+  padding-top: 65px;
+}
+
+.homeLoader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.subNavbar {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 72px;
+  left: 0;
+  background-color: #e0e0e0;
+  padding-right: 50px;
+}
+
+.subNavbar .subNavbarButton {
+  float: right;
+  width: 50px;
+  height: 50px;
+  border-radius: 0;
+}
+
+.customCard {
+  margin: 2px;
+  min-width: 300px !important;
+}
+
+.customCard:hover {
+  text-decoration: none !important;
+}
+
+.fixedRight {
+  position: fixed;
+  right: 15px;
+  bottom: 30px;
+  z-index: 99;
+}
+
+.msg-wrapper {
+  white-space: pre-wrap;
+}
+
+.card {
+  min-height: 200px;
+}
+
+.searchBar {
+  width: 40% !important;
+  min-width: 200px;
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  margin-left: 20%;
+}
+
+@media (max-width: 576px) {
+  .searchBar {
+    margin-left: 5px;
+  }
+}
+/*# sourceMappingURL=HomePage.css.map */
